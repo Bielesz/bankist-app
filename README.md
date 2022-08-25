@@ -1,8 +1,8 @@
-# bankist
+# bankist-app
 
-Bankist is a bank website built in javascript.
+Bankist-app is a bank application built in javascript.
 
-[live](https://bielesz.github.io/bankist/)
+[live](https://bielesz.github.io/bankist-app/)
 
 Use this credential to login.
 

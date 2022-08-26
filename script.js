@@ -344,3 +344,23 @@ btnSort.addEventListener('click', function (e) {
   displayMovements(currentAccount.movements, !sorted);
   sorted = !sorted;
 });
+
+// Creating and inserting elements
+const nav = document.querySelector('nav');
+const message = document.createElement('div');
+message.classList.add('cookie-message');
+
+message.innerHTML = `
+js 1111 <br>
+jd 2222
+<button class="btn btn--close-cookie">Got it!</button>`;
+
+nav.after(message);
+
+// Delete elements
+document
+  .querySelector('.btn--close-cookie')
+  .addEventListener('click', function () {
+    // message.remove();
+    message.parentElement.removeChild(message);
+  });
